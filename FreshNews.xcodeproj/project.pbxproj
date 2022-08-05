@@ -9,23 +9,51 @@
 /* Begin PBXBuildFile section */
 		BE46AC98289C4B5400ADBAAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE46AC97289C4B5400ADBAAA /* AppDelegate.swift */; };
 		BE46AC9A289C4B5400ADBAAA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE46AC99289C4B5400ADBAAA /* SceneDelegate.swift */; };
-		BE46AC9C289C4B5400ADBAAA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE46AC9B289C4B5400ADBAAA /* ViewController.swift */; };
 		BE46AC9F289C4B5400ADBAAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE46AC9D289C4B5400ADBAAA /* Main.storyboard */; };
 		BE46ACA2289C4B5400ADBAAA /* FreshNews.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BE46ACA0289C4B5400ADBAAA /* FreshNews.xcdatamodeld */; };
 		BE46ACA4289C4B5600ADBAAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE46ACA3289C4B5600ADBAAA /* Assets.xcassets */; };
 		BE46ACA7289C4B5600ADBAAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE46ACA5289C4B5600ADBAAA /* LaunchScreen.storyboard */; };
+		BE46ACB0289C4C6400ADBAAA /* FreshNewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE46ACAF289C4C6400ADBAAA /* FreshNewsModel.swift */; };
+		BE46ACB2289C4C7600ADBAAA /* FreshNewsDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE46ACB1289C4C7600ADBAAA /* FreshNewsDataManager.swift */; };
+		BE46ACB4289C4C8200ADBAAA /* FreshNewsApiCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE46ACB3289C4C8200ADBAAA /* FreshNewsApiCall.swift */; };
+		BE46ACBC289C524200ADBAAA /* FreshNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE46ACBB289C524200ADBAAA /* FreshNewsViewController.swift */; };
+		BE46ACBF289C535B00ADBAAA /* FreshNewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE46ACBE289C535B00ADBAAA /* FreshNewsTableViewCell.swift */; };
+		BE46ACC2289C553700ADBAAA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE46ACC1289C553700ADBAAA /* ViewController.swift */; };
+		BE46ACC9289C5E0C00ADBAAA /* InternetReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE46ACC8289C5E0C00ADBAAA /* InternetReachability.swift */; };
+		BE46ACCC289C5E9200ADBAAA /* PopUpMsgManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE46ACCB289C5E9200ADBAAA /* PopUpMsgManager.swift */; };
+		BE46ACCE289C5EF500ADBAAA /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE46ACCD289C5EF500ADBAAA /* String.swift */; };
+		BE46ACD1289C5FC700ADBAAA /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE46ACD0289C5FC700ADBAAA /* Enums.swift */; };
+		BE46ACD3289C692700ADBAAA /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE46ACD2289C692700ADBAAA /* WebViewController.swift */; };
+		BE4E71BC289DAE0400A9E5E0 /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4E71BB289DAE0400A9E5E0 /* UserDefaultsManager.swift */; };
+		BEF54227289D602100F4C7BF /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF54226289D602100F4C7BF /* Helper.swift */; };
+		CBAB4C6E07B0C05D1DF8FD25 /* Pods_FreshNews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B04B6C6F467F183018A422B /* Pods_FreshNews.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4FA0CFC0F9A3E59B942C0FF4 /* Pods-FreshNews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreshNews.release.xcconfig"; path = "Target Support Files/Pods-FreshNews/Pods-FreshNews.release.xcconfig"; sourceTree = "<group>"; };
+		51D16A5F34FA893E63A5614D /* Pods-FreshNews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreshNews.debug.xcconfig"; path = "Target Support Files/Pods-FreshNews/Pods-FreshNews.debug.xcconfig"; sourceTree = "<group>"; };
+		8B04B6C6F467F183018A422B /* Pods_FreshNews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FreshNews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE46AC94289C4B5400ADBAAA /* FreshNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FreshNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE46AC97289C4B5400ADBAAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BE46AC99289C4B5400ADBAAA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BE46AC9B289C4B5400ADBAAA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BE46AC9E289C4B5400ADBAAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BE46ACA1289C4B5400ADBAAA /* FreshNews.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FreshNews.xcdatamodel; sourceTree = "<group>"; };
 		BE46ACA3289C4B5600ADBAAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE46ACA6289C4B5600ADBAAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE46ACA8289C4B5600ADBAAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE46ACAF289C4C6400ADBAAA /* FreshNewsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreshNewsModel.swift; sourceTree = "<group>"; };
+		BE46ACB1289C4C7600ADBAAA /* FreshNewsDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreshNewsDataManager.swift; sourceTree = "<group>"; };
+		BE46ACB3289C4C8200ADBAAA /* FreshNewsApiCall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreshNewsApiCall.swift; sourceTree = "<group>"; };
+		BE46ACBB289C524200ADBAAA /* FreshNewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreshNewsViewController.swift; sourceTree = "<group>"; };
+		BE46ACBE289C535B00ADBAAA /* FreshNewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreshNewsTableViewCell.swift; sourceTree = "<group>"; };
+		BE46ACC1289C553700ADBAAA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BE46ACC8289C5E0C00ADBAAA /* InternetReachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetReachability.swift; sourceTree = "<group>"; };
+		BE46ACCB289C5E9200ADBAAA /* PopUpMsgManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpMsgManager.swift; sourceTree = "<group>"; };
+		BE46ACCD289C5EF500ADBAAA /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		BE46ACD0289C5FC700ADBAAA /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		BE46ACD2289C692700ADBAAA /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		BE4E71BB289DAE0400A9E5E0 /* UserDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
+		BEF54226289D602100F4C7BF /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +61,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBAB4C6E07B0C05D1DF8FD25 /* Pods_FreshNews.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		22C2749F4AA87359087AC8DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B04B6C6F467F183018A422B /* Pods_FreshNews.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3D16172343B10798102943F4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				51D16A5F34FA893E63A5614D /* Pods-FreshNews.debug.xcconfig */,
+				4FA0CFC0F9A3E59B942C0FF4 /* Pods-FreshNews.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		BE46AC8B289C4B5400ADBAAA = {
 			isa = PBXGroup;
 			children = (
 				BE46AC96289C4B5400ADBAAA /* FreshNews */,
 				BE46AC95289C4B5400ADBAAA /* Products */,
+				3D16172343B10798102943F4 /* Pods */,
+				22C2749F4AA87359087AC8DD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +106,116 @@
 		BE46AC96289C4B5400ADBAAA /* FreshNews */ = {
 			isa = PBXGroup;
 			children = (
-				BE46AC97289C4B5400ADBAAA /* AppDelegate.swift */,
-				BE46AC99289C4B5400ADBAAA /* SceneDelegate.swift */,
-				BE46AC9B289C4B5400ADBAAA /* ViewController.swift */,
-				BE46AC9D289C4B5400ADBAAA /* Main.storyboard */,
+				BEF54223289D601300F4C7BF /* Helper */,
+				BE46ACCF289C5FBD00ADBAAA /* Enums */,
+				BE46ACCA289C5E8A00ADBAAA /* PopUpMsgManager */,
+				BE46ACAE289C4C4800ADBAAA /* FreshNewsManager */,
+				BE4E71BA289DADF000A9E5E0 /* UserDefaultsManager */,
+				BE46ACBA289C51F500ADBAAA /* View */,
+				BE46ACB9289C51E000ADBAAA /* Controllers */,
+				BE46ACBD289C533500ADBAAA /* Cells */,
+				BE46ACC7289C5DFC00ADBAAA /* InternetConnectionCheck */,
+				BE46ACB8289C51D200ADBAAA /* Supported Files */,
+				BE46ACC0289C552A00ADBAAA /* Extension */,
 				BE46ACA3289C4B5600ADBAAA /* Assets.xcassets */,
-				BE46ACA5289C4B5600ADBAAA /* LaunchScreen.storyboard */,
 				BE46ACA8289C4B5600ADBAAA /* Info.plist */,
 				BE46ACA0289C4B5400ADBAAA /* FreshNews.xcdatamodeld */,
 			);
 			path = FreshNews;
+			sourceTree = "<group>";
+		};
+		BE46ACAE289C4C4800ADBAAA /* FreshNewsManager */ = {
+			isa = PBXGroup;
+			children = (
+				BE46ACB1289C4C7600ADBAAA /* FreshNewsDataManager.swift */,
+				BE46ACB3289C4C8200ADBAAA /* FreshNewsApiCall.swift */,
+				BE46ACAF289C4C6400ADBAAA /* FreshNewsModel.swift */,
+			);
+			path = FreshNewsManager;
+			sourceTree = "<group>";
+		};
+		BE46ACB8289C51D200ADBAAA /* Supported Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE46AC97289C4B5400ADBAAA /* AppDelegate.swift */,
+				BE46AC99289C4B5400ADBAAA /* SceneDelegate.swift */,
+			);
+			path = "Supported Files";
+			sourceTree = "<group>";
+		};
+		BE46ACB9289C51E000ADBAAA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BE46ACBB289C524200ADBAAA /* FreshNewsViewController.swift */,
+				BE46ACD2289C692700ADBAAA /* WebViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BE46ACBA289C51F500ADBAAA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BE46AC9D289C4B5400ADBAAA /* Main.storyboard */,
+				BE46ACA5289C4B5600ADBAAA /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BE46ACBD289C533500ADBAAA /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				BE46ACBE289C535B00ADBAAA /* FreshNewsTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		BE46ACC0289C552A00ADBAAA /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				BE46ACC1289C553700ADBAAA /* ViewController.swift */,
+				BE46ACCD289C5EF500ADBAAA /* String.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		BE46ACC7289C5DFC00ADBAAA /* InternetConnectionCheck */ = {
+			isa = PBXGroup;
+			children = (
+				BE46ACC8289C5E0C00ADBAAA /* InternetReachability.swift */,
+			);
+			path = InternetConnectionCheck;
+			sourceTree = "<group>";
+		};
+		BE46ACCA289C5E8A00ADBAAA /* PopUpMsgManager */ = {
+			isa = PBXGroup;
+			children = (
+				BE46ACCB289C5E9200ADBAAA /* PopUpMsgManager.swift */,
+			);
+			path = PopUpMsgManager;
+			sourceTree = "<group>";
+		};
+		BE46ACCF289C5FBD00ADBAAA /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				BE46ACD0289C5FC700ADBAAA /* Enums.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		BE4E71BA289DADF000A9E5E0 /* UserDefaultsManager */ = {
+			isa = PBXGroup;
+			children = (
+				BE4E71BB289DAE0400A9E5E0 /* UserDefaultsManager.swift */,
+			);
+			path = UserDefaultsManager;
+			sourceTree = "<group>";
+		};
+		BEF54223289D601300F4C7BF /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				BEF54226289D602100F4C7BF /* Helper.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +225,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BE46ACAB289C4B5600ADBAAA /* Build configuration list for PBXNativeTarget "FreshNews" */;
 			buildPhases = (
+				241E3314FDFBAF4CE7880FB4 /* [CP] Check Pods Manifest.lock */,
 				BE46AC90289C4B5400ADBAAA /* Sources */,
 				BE46AC91289C4B5400ADBAAA /* Frameworks */,
 				BE46AC92289C4B5400ADBAAA /* Resources */,
+				938646E7B32DEB569125DDAC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -136,15 +286,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		241E3314FDFBAF4CE7880FB4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FreshNews-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		938646E7B32DEB569125DDAC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FreshNews/Pods-FreshNews-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FreshNews/Pods-FreshNews-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FreshNews/Pods-FreshNews-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BE46AC90289C4B5400ADBAAA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE46AC9C289C4B5400ADBAAA /* ViewController.swift in Sources */,
+				BE46ACB2289C4C7600ADBAAA /* FreshNewsDataManager.swift in Sources */,
+				BE46ACC9289C5E0C00ADBAAA /* InternetReachability.swift in Sources */,
 				BE46AC98289C4B5400ADBAAA /* AppDelegate.swift in Sources */,
+				BE46ACCC289C5E9200ADBAAA /* PopUpMsgManager.swift in Sources */,
 				BE46AC9A289C4B5400ADBAAA /* SceneDelegate.swift in Sources */,
+				BE46ACC2289C553700ADBAAA /* ViewController.swift in Sources */,
+				BE4E71BC289DAE0400A9E5E0 /* UserDefaultsManager.swift in Sources */,
+				BEF54227289D602100F4C7BF /* Helper.swift in Sources */,
+				BE46ACCE289C5EF500ADBAAA /* String.swift in Sources */,
+				BE46ACD1289C5FC700ADBAAA /* Enums.swift in Sources */,
+				BE46ACBC289C524200ADBAAA /* FreshNewsViewController.swift in Sources */,
+				BE46ACB4289C4C8200ADBAAA /* FreshNewsApiCall.swift in Sources */,
+				BE46ACB0289C4C6400ADBAAA /* FreshNewsModel.swift in Sources */,
+				BE46ACD3289C692700ADBAAA /* WebViewController.swift in Sources */,
 				BE46ACA2289C4B5400ADBAAA /* FreshNews.xcdatamodeld in Sources */,
+				BE46ACBF289C535B00ADBAAA /* FreshNewsTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +490,7 @@
 		};
 		BE46ACAC289C4B5600ADBAAA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51D16A5F34FA893E63A5614D /* Pods-FreshNews.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -297,23 +502,26 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.helix.FreshNews;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		BE46ACAD289C4B5600ADBAAA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FA0CFC0F9A3E59B942C0FF4 /* Pods-FreshNews.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -325,18 +533,20 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.helix.FreshNews;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
