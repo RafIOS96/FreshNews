@@ -23,6 +23,7 @@ class FreshNewsApiCall {
             switch response.result
             {
             case .success(let data):
+                print("a")
                 let result_info: [String:Any] = data as? [String:Any] ?? [:]
                 let articles_dict = result_info["articles"] as? [NSDictionary]
                 if articles_dict != nil {
